@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343a40;
+  color: white;
+  padding: 8px 15px;
+  height: 40px;
+}
+
+.left-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigation-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.navigation-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.address-bar {
+  display: flex;
+  align-items: center;
+  background-color: #495057;
+  border-radius: 4px;
+  padding: 2px 8px;
+  gap: 5px;
+  font-size: 12px;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.protocol-icon {
+  font-size: 12px;
+}
+
+.url {
+  opacity: 0.8;
+}
+
+.tab-title {
+  font-weight: 500;
+}
+
+.right-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.control-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

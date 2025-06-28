@@ -1,0 +1,100 @@
+.billing-manager {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+
+.billing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.billing-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+}
+
+.refresh-button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  color: #495057;
+}
+
+.billing-content {
+  display: flex;
+  flex: 1;
+  gap: 15px;
+  padding: 15px;
+}
+
+/* Criteria Section Styles */
+.criteria-section {
+  flex: 1;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.criteria-header {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+}
+
+.criteria-content {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Choose Criteria Styles */
+.select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.select-wrapper {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.criteria-select {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  min-height: 200px;
+}
+
+.criteria-select option {
+  padding: 8px 12px;
+}
+
+.criteria-select option:hover {
+  background-color: #e9ecef;
+}
+
+/* Current Criteria Styles */
+.criteria-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
